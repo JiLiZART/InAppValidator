@@ -4,5 +4,5 @@ import Quick
 @testable import InAppValidatorTests
 
 Quick.QCKMain([
-    ValidatorSpec.self
+    iTunesValidatorSpec.self
 ])

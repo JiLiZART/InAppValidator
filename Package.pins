@@ -1,0 +1,24 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "Alamofire",
+      "reason": null,
+      "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+      "version": "4.5.0"
+    },
+    {
+      "package": "PromiseKit",
+      "reason": null,
+      "repositoryURL": "https://github.com/mxcl/PromiseKit",
+      "version": "4.3.2"
+    },
+    {
+      "package": "RxSwift",
+      "reason": null,
+      "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+      "version": "3.6.1"
+    }
+  ],
+  "version": 1
+}

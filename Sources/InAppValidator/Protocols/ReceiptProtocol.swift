@@ -1,11 +1,9 @@
-//
-// Created by Nikolay Kostyurin on 07/02/2017.
-//
-
 import Foundation
 
-protocol ReceiptProtocol {
-    var code: Int {get set}
-    var receipt: String {get set}
-    var purchases: [PurchaseItemProtocol] {get set}
+public protocol ReceiptProtocol {
+    //associatedtype PurchaseItem;
+
+    var code: Int { get }
+    var receipt: String { get }
+    var purchases: [PurchaseItemProtocol] { get }
 }

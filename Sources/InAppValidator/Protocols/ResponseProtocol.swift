@@ -1,9 +1,6 @@
-//
-// Created by Nikolay Kostyurin on 07/02/2017.
-//
-
 import Foundation
 
-protocol ResponseProtocol {
-    var receipt: ReceiptProtocol { get }
+public protocol ResponseProtocol {
+    var isValid: Bool { get }
+    var receipt: ReceiptProtocol? { get }
 }
